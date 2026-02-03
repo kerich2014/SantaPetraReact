@@ -1,0 +1,86 @@
+.text1{
+    color: black;
+    font-size: 25px;
+}
+
+.text2{
+    color: black;
+    font-size: 7px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.menu{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+@media (min-width: 360px) {
+  /* iPhone SE, старые Android */
+    .text1{
+        font-size: 30px;
+    }
+
+    .text2{
+        font-size: 10px;
+    }
+
+    .menu{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+  /* iPad, планшеты Android */
+    .text1{
+        font-size: 35px;
+    }
+
+    .text2{
+        font-size: 15px;
+    }
+
+    .menu{
+        display: flex;
+    }
+}
+
+@media (min-width: 1024px) {
+  /* Стандартные ноутбуки */
+  .text1{
+        font-size: 35px;
+    }
+
+    .text2{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1280px) {
+  /* Десктопы ноутбуки */
+  .text1{
+        font-size: 40px;
+    }
+
+    .text2{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1440px) {
+  /* Большие экраны */
+  .text1{
+        font-size: 40px;
+    }
+
+    .text2{
+        font-size: 20px;
+    }
+}

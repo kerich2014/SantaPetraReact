@@ -1,0 +1,16 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Мраморный паттерн -->
+    <pattern id="marblePattern" patternUnits="userSpaceOnUse" width="240" height="240">
+      <rect width="240" height="240" fill="#f3f3f3"></rect>
+      <path d="M0 40 Q80 20 160 55 T320 80" stroke="#c5c5c5" stroke-width="4" fill="none"></path>
+      <path d="M0 120 Q100 90 200 135 T360 165" stroke="#b0b0b0" stroke-width="3" fill="none"></path>
+      <path d="M0 190 Q120 160 240 205 T420 240" stroke="#d9d9d9" stroke-width="2" fill="none"></path>
+    </pattern>
+  </defs>
+
+  <!-- SP -->
+  <text x="50%" y="380" text-anchor="middle" font-size="380" font-weight="900" font-family="Montserrat, Arial, sans-serif" letter-spacing="18" fill="url(#marblePattern)" stroke="#1f1f1f" stroke-width="6">
+    SP
+  </text>
+</svg>
