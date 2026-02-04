@@ -5,7 +5,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import styles from './Home.module.css'
 import { Card, CardContent } from "@/components/ui/card"
 
 
