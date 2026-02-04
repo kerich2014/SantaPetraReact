@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import styles from './Header.module.css'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     const [isOpen, setOpen] = useState(false)
@@ -14,8 +15,8 @@ const Header = () => {
                 
                 <nav className={`${styles.menu} ${isOpen ? styles.menuOpen : ''}`}>
                     <ul className={styles.list}>
-                        <li className={styles.navItem}>Магазин</li>
-                        <li className={styles.navItem}>Контакты</li>
+                        <li className={styles.navItem}><Link to={'/shop'}>Магазин</Link></li>
+                        <li className={styles.navItem}><Link to={'/contacts'}>Контакты</Link></li>
                     </ul>
                 </nav>
                 
