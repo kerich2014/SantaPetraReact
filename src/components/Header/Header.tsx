@@ -9,7 +9,7 @@ const Header = () => {
         <>
             <div className={styles.header}>
                 <div className={styles.logo}>
-                    <h1 className={styles.text1}>SANTA PETRA</h1>
+                    <Link to={'/'}><h1 className={styles.text1}>SANTA PETRA</h1></Link>
                     <p className={styles.text2}>stone workshop</p>
                 </div>
                 

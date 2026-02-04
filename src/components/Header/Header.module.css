@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .logo{
@@ -27,6 +27,14 @@
 .menuButton{
     display: none;
 }
+
+.text1{
+        font-size: 30px;
+    }
+
+    .text2{
+        font-size: 15px;
+    }
 
 /* Добавь это в конец Header.module.css */
 
