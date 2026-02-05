@@ -3,8 +3,25 @@ h3{
     margin-bottom: 10px;
 }
 
+.mediaUl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
 li{
     text-align: center;
+}
+
+.media{
+  width: 30px;
+  height: 30px;
+}
+
+.media1{
+  height: 50px;
 }
 
 .container{

@@ -1,3 +1,4 @@
+
 import styles from './Footer.module.css'
 
 const Footer = () => {
@@ -5,10 +6,11 @@ const Footer = () => {
         <div className={styles.container}>
             <div className={styles.child1}>
                 <h3>Соцсети:</h3>
-                <ul>
-                    <li>instagram</li>
-                    <li>youtube</li>
-                    <li>вконтакте</li>
+                <ul className={styles.mediaUl}>
+                    <li><img className={styles.media} src='/ig.svg'/></li>
+                    <li><img className={styles.media} src='/tg.svg'/></li>
+                    <li><img className={styles.media} src='/yt.svg'/></li>
+                    <li><img className={styles.media1} src='/vk.svg'/></li>
                 </ul>
             </div>
             <div className={styles.child2}>
